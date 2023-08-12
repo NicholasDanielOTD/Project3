@@ -7,6 +7,7 @@ public partial class Project3Main : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private Entities _entities;
 
     public Project3Main()
     {

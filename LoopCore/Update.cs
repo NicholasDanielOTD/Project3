@@ -1,9 +1,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-namespace MyGame;
+namespace Project3.Core;
 
-public partial class Game1 : Game
+public partial class Project3Main : Game
 {
     private KeyboardState lastKstate;
     private MouseState lastMstate;

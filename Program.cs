@@ -1,3 +1,4 @@
-﻿
-using var game = new MyGame.Game1();
+﻿using Project3.Core;
+
+using var game = new Project3Main();
 game.Run();

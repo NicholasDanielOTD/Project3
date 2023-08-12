@@ -1,37 +1,33 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MyGame;
+namespace Project3.Core;
 
-public partial class Game1 : Game
+public partial class Project3Main : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
-    public Game1()
+    public Project3Main()
     {
         _graphics = new GraphicsDeviceManager(this);
-        Content.RootDirectory = "Content";
+        Content.RootDirectory = "Assets";
         IsMouseVisible = true;
     }
 
     protected override void Initialize()
     {
-
         base.Initialize();
     }
 
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-
     }
 
     protected override void Update(GameTime gameTime)
     {
         CheckInputs(gameTime);
-
-
         base.Update(gameTime);
     }
 
